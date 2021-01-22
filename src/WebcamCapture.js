@@ -36,12 +36,10 @@ function WebcamCapture() {
         videoConstraints={videoConstraints}
       />
 
-      <IconButton>
         <RadioButtonUncheckedIcon
           className="webcamCapture__button"
           onClick={capture}
         />
-      </IconButton>
       <img src="" alt="" />
     </div>
   );
