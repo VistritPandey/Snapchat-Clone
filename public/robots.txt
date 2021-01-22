@@ -1,2 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Hi there, if you r here that means u know hacking. I don't know but can you tell me how do you hack? I only know how to access robots.txt
