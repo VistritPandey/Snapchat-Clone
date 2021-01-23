@@ -35,7 +35,6 @@ function Chat({ id, profilePic, username, timestamp, imageUrl, read }) {
           <ReactTimeago date={new Date(timestamp?.toDate()).toUTCString()} />
         </p>
       </div>
-      {!read && <StopRoundedIcon className='chat__readIcon' />}
     </div>
   )
 }
