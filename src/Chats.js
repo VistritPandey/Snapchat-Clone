@@ -45,7 +45,7 @@ function Chats() {
         />
         <div className='chats__search'>
           <SearchIcon className='chats__searchIcon' />
-          <input type='text' placeholder='Friends' />
+          <input type='text' placeholder='Click on avatar to logout' />
         </div>
         <ChatBubbleIcon className='chats__chatIcon' />
       </div>
