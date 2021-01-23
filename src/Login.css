@@ -1,5 +1,5 @@
 .login {
-  background-color: #feff00;
+  background-color: ;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -14,4 +14,5 @@
 .login__container > img {
   object-fit: contain;
   height: 300px;
+  width: 500px;
 }

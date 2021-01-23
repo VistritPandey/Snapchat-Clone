@@ -11,13 +11,13 @@
   background: url('https://www.pngkey.com/png/full/859-8598072_picture-freeuse-library-silhouette-mobile-at-getdrawings-cell.png')
     no-repeat center;
   background-size: contain;
-  height: 400px;
+  height: 600px;
   width: 250px;
   padding: 74px;
 }
 
 .app__bodyBackground {
-  background-color: white;
+  background-color: #fefc01;
   height: 400px;
 }
 

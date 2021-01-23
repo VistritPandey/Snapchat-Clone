@@ -30,7 +30,7 @@ function Login() {
           src='https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2017/06/Snapchat_logo.jpg'
           alt=''
         />
-        <Button variant='outlined' onClick={signIn}>
+        <Button variant='outlined' onClick={signIn} color='secondary'>
           Sign In
         </Button>
       </div>
