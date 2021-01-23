@@ -43,11 +43,9 @@ function Preview() {
       'state_changed',
       null,
       (error) => {
-        // ERROR function
         console.log(error)
       },
       () => {
-        // COMPLETE function
         storage
           .ref('posts')
           .child(id)
