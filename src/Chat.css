@@ -29,3 +29,7 @@
 .chat__info > p {
     font-size: 9px;
 }
+
+.chat:hover {
+    opacity: 0.8;
+}
