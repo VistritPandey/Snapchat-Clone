@@ -1,10 +1,10 @@
-.chats{
+.chats {
     position: relative;
     height: 400px;
     width: 250px;
-}
-
-.chats__header{
+  }
+  
+  .chats__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,49 +12,75 @@
     padding-right: 10px;
     background-color: #059ee0;
     height: 50px;
-}
-
-.chats__search > input {
+  }
+  
+  .chats__avatar {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  
+  .chats__search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 8px;
+  }
+  
+  .chats__search > input {
     outline: none;
     background-color: transparent;
     border: none;
     font-size: 12px;
     flex: 1;
     color: white;
-}
-
-.chats__search > input::placeholder {
+  }
+  
+  .chats__search > input::placeholder {
     color: white;
     opacity: 1;
-}
-
-.chat__posts{
-    height: 359px;
-    background-color: white;
+  }
+  
+  .chats__searchIcon {
+    color: white;
+    font-size: 13px !important;
+  }
+  
+  .chats__chatIcon {
+    color: white;
+    font-size: 18px !important;
+  }
+  
+  .chats__posts {
     box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
+    height: 359px;
     margin-top: -9px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: white;
     overflow: scroll;
-}
-
-.chat__posts::-webkit-scrollbar {
+  }
+  
+  .chats__posts::-webkit-scrollbar {
     display: none;
-}
-
-.chat__posts {
+  }
+  
+  .chats__posts {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
-
-.chats__avatar{
-    height: 25px !important;
-    width: 25px !important;
-}
-
-.chats__search {
-    display: flex;
-    align-items: center;
-    flex: 1;
-    padding-left: 8px;
-}
+  }
+  
+  .chats__takePicIcon {
+    position: absolute;
+    background-color: white;
+    border-radius: 200px;
+    color: grey;
+    font-size: 40px !important;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .chats__takePicIcon:hover {
+    opacity: 0.8;
+  }
