@@ -1,19 +1,19 @@
-import firebase from "firebase"
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCtZH5V8E40pcJ8T_WjSxt7kcz5GAt_cn4",
-  authDomain: "vistrit-snapchat.firebaseapp.com",
-  projectId: "vistrit-snapchat",
-  storageBucket: "vistrit-snapchat.appspot.com",
-  messagingSenderId: "49962651762",
-  appId: "1:49962651762:web:898becf9eb050561fff2eb",
-  measurementId: "G-NZ64F6NXH0",
-};
+import firebase from 'firebase'
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
-const db = firebaseApp.firestore();
-const auth = firebase.auth();
-const storage = firebase.storage();
+const firebaseConfig = {
+  apiKey: 'AIzaSyDedbCHz7NoV0zN74rL3GpFe2wFNc1guVU',
+  authDomain: 'snapchat-clone-5edec.firebaseapp.com',
+  projectId: 'snapchat-clone-5edec',
+  storageBucket: 'snapchat-clone-5edec.appspot.com',
+  messagingSenderId: '92395773561',
+  appId: '1:92395773561:web:d7070e62459b7b3d5dfea8',
+}
+
+const firebaseApp = firebase.initializeApp(firebaseConfig)
+
+const db = firebaseApp.firestore()
+const auth = firebase.auth()
+const storage = firebase.storage()
 const provider = new firebase.auth.GoogleAuthProvider()
 
-export {db, auth, storage, provider}
+export { db, auth, storage, provider }

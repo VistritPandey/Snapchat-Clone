@@ -39,7 +39,7 @@ function Chats() {
     <div className='chats'>
       <div className='chats__header'>
         <Avatar
-          src=""
+          src={user.profilePic}
           onClick={() => auth.signOut()}
           className='chats__avatar'
         />
@@ -62,7 +62,7 @@ function Chats() {
               timestamp={timestamp}
               imageUrl={imageUrl}
               read={read}
-              //profilePic={profilePic}
+              profilePic={profilePic}
             />
           )
         )}
