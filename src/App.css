@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: #fefc01;
   height: 100vh;
+  
 }
 
 .app__body {
@@ -14,6 +15,7 @@
   height: 600px;
   width: 250px;
   padding: 74px;
+  background-color: #fefc01;
 }
 
 .app__bodyBackground {
@@ -24,4 +26,5 @@
 .app__logo {
   object-fit: contain;
   height: 100px;
+  background-color: #fefc01;
 }
