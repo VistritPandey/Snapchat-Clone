@@ -17,7 +17,6 @@ function App() {
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       if (authUser) {
-        // User is signed in
         dispatch(
           login({
             username: authUser.displayName,
@@ -26,7 +25,6 @@ function App() {
           })
         )
       } else {
-        // User is signed out
         dispatch(logout())
       }
     })
