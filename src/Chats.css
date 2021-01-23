@@ -18,6 +18,9 @@
   width: 25px !important;
   height: 25px !important;
 }
+.chats__avatar:hover{
+  cursor: pointer;
+}
 
 .chats__search {
   display: flex;
